@@ -2,7 +2,7 @@
 
 ## Implementation of the Private Information Inference Process
 
-We constructed the following prompt following the previous literature [1], the prompt consisted of guidance, the output format, the examples and the reasoning of the examples:
+We constructed the following prompt following the previous literature, the prompt consisted of guidance, the output format, the examples and the reasoning of the examples:
 
 ### Guidance
 
@@ -182,5 +182,6 @@ We followed the official documentation provided by OpenAI to construct the memor
 > **MUST OBEY THE OUTPUT FORMAT.**
 >
 > *If there is no information to remember, please output an empty list.*
+
 
 We further inserted memory with the corresponding unique IDs into the inference process.
