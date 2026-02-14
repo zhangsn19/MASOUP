@@ -1,4 +1,4 @@
-# Additional Information Concerning the Implementation of MemoAnalyzer
+# Additional Information Concerning the Implementation of the Proactive Setting
 
 ## Implementation of the Private Information Inference Process
 
