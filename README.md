@@ -8,3 +8,4 @@ This repo contains the descriptions for the paper, in the following manner:
 - exit_interview.md : The outline of the exit interview.
 - implementation_eval.md : The implementation details of the system in the evaluation study.
 - implementation_proactive.md : The implementation details of the proactive setting in the evaluation study.
+- questionnaire.md : The evaluation study's subjective ratings entries' definitions and details.
