@@ -1,21 +1,20 @@
 # Qualitative Codebooks
 
-## Codebook For Evaluation Study
+Table 1 details the themes and codes derived from the semi-structured interviews in the evaluation study (N=72).
 
-Table 1 details the themes and codes derived from the exit interviews (N=72) regarding user strategies and feedback on MemoAnalyzer.
+### Table 1: The codebook derived from semi-structured interviews in the evaluation study (N=72).
 
-### Table 1: Codebook for evaluation study: user strategies & feedback, which is derived from exit interviews (N=72).
+| **Theme** | **Code** | **Definition** |
+| --- | --- | --- |
+| **Balancing privacy and utility** | **Task-dependent anonymization** | Preserving task-essential details while selectively obfuscating identifiers to maintain model personalization. |
+|  | **Replace precise data with broad items** | Replacing high-precision private data (e.g., exact addresses or balances) with broad, functional descriptions. |
+|  | **Sensitivity-based anonymization** | Systematic removal of specific high-risk attributes (e.g., health or affiliations) regardless of their task utility. |
+| **Experience towards designers' features** | **Visual encoding** | Experiences around visual encoding, which utilize color temperature and opacity to direct user focus toward risks. |
+|  | **Proactive alerting** | Experiences around proactive alerting, which surface risks immediately after interaction turns to facilitate in-the-moment rather than post-hoc auditing. |
+|  | **Source attribution** | Experiences around source attribution, which link inferred attributes to specific conversational origins (UUIDs) to verify model's reasoning. |
+|  | **Risk discovery** | Experiences around risk discovery, which let users become aware of how seemingly benign inputs are synthesized into sensitive inferences. |
+| **Interaction** | **Human-in-the-loop correction** | Users' role in fixing errors or updating outdated information to refine the model. |
+|  | **High workload** | Preference for automated alert over the high workload of manual memory clustering or dragging. |
+| **System inaccuracies** | **False negatives** | Instances where sensitive information was present in the dialogue but was not flagged by the inference engine. |
+|  | **False positives** | Non-sensitive context being incorrectly categorized as a privacy risk, requiring manual dismissal by the user. |
 
-| **Theme**                                | **Sub-theme / Code**            | **Definition**                                               |
-| ---------------------------------------- | ------------------------------- | ------------------------------------------------------------ |
-| **Balancing privacy and utility**        | **Context-dependent retention** | Retaining information only if it is directly relevant to the immediate task context. |
-|                                          | **Category-based filtering**    | Systematically removing specific high-risk data types (e.g., location, finance) regardless of context. |
-|                                          | **De-identification**           | Removing personally identifiable markers (Names, Schools) while keeping generic attributes. |
-| **Efficient and effective notification** | **Visual salience**             | The effectiveness of visual cues (color/highlighting) in directing attention to risks. |
-|                                          | **Real-time feedback**          | The value of receiving immediate privacy alerts during the interaction flow. |
-| **Increased awareness and trust**        | **Source tracking**             | Understanding the link between current inferences and past data sources enhances trust. |
-|                                          | **Risk awareness**              | The tool helps users realize previously overlooked privacy risks in conversations. |
-| **Simplified but Proactive Design**      | **Workflow integration**        | Preference for automated analysis over manual sorting (clustering/dragging). |
-|                                          | **Automated analysis**          | The reduction of cognitive load through automated risk identification. |
-| **Improvements**                         | **False negative**              | Sensitive information was not flagged by LLMs.               |
-|                                          | **False positive**              | Non-sensitive information was wrongly flagged by LLMs.       |
