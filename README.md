@@ -1,6 +1,4 @@
-# SOUPS26
-
-This repo contains the descriptions for the paper, in the following manner:
+This repo contains the descriptions for the paper "Towards Transparent and Proactive Memory Privacy Management in LLM-based Chatbots: An Empirical Investigation of Interaction Design Patterns", in the following manner:
 
 - classification.md : The classification of private information. 
 - codebook.md : The codebook for the evaluation study.
